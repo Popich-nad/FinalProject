@@ -13,7 +13,7 @@ set(Src
 )
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
-add_executable(SearchEngine ${Src})
+add_executable(FinalProject ${Src})
 
-target_link_libraries(SearchEngine nlohmann_json::nlohmann_json)
-target_include_directories(SearchEngine PUBLIC ${MY_INCLUDE_DIR})
+target_link_libraries(FinalProject nlohmann_json::nlohmann_json)
+target_include_directories(FinalProject PUBLIC ${MY_INCLUDE_DIR})

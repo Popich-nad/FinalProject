@@ -1,6 +1,6 @@
 ﻿cmake_minimum_required(VERSION 3.8)
 
-project(SearchEnigneTests)
+project(FinalProjectTests)
 
 include(FetchContent)
 FetchContent_Declare(
