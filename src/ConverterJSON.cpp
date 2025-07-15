@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <iostream>
 #include "ConverterJSON.h"
-#include "nlohmann/json.hpp"
+#include "json.hpp"
 
 using json = nlohmann::json;
 

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "fstream": "cpp",
+        "filesystem": "cpp"
+    },
+    "cmake.sourceDirectory": "C:/Users/arsen/OneDrive/Рабочий стол/FinalProject/FinalProject/include"
+}
