@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 #include <fstream>
 #include <filesystem>
-#include "json.hpp"
+#include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
 
