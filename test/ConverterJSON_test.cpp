@@ -1,4 +1,4 @@
-#include "../include/ConverterJSON.h"
+#include "C:/projects/FinalProject/include/ConverterJSON.h"
 #include <gtest/gtest.h>
 #include <fstream>
 #include <filesystem>

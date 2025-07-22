@@ -2,9 +2,9 @@
 #include <vector>
 #include <utility>
 #include <exception>
-#include "../include/ConverterJSON.h"
-#include "../include/SearchEngine.h"
-#include "../include/InvertedIndex.h"
+#include "C:/projects/FinalProject/include/ConverterJSON.h"
+#include "C:/projects/FinalProject/include/SearchEngine.h"
+#include "C:/projects/FinalProject/include/InvertedIndex.h"
 
 int main()
 {

@@ -1,4 +1,4 @@
-#include "../include/SearchEngine.h"
+#include "C:/projects/FinalProject/include/SearchEngine.h"
 #include <gtest/gtest.h>
 #include <fstream>
 #include <sstream>
@@ -16,7 +16,7 @@ class MockInvertedIndex : public InvertedIndex {
 public:
     std::map<std::string, std::vector<Entry>> freq_dictionary;
 
-    void AddDocument(size_t doc_id, std::istream& content) override {
+    void AddDocument(size_t doc_id, std::istream& content) {
         std::string doc((std::istreambuf_iterator<char>(content)),
             std::istreambuf_iterator<char>());
 
@@ -39,7 +39,7 @@ public:
         }
     }
 
-    std::vector<Entry> GetWordCount(const std::string& word) override {
+    std::vector<Entry> GetWordCount(const std::string& word) {
         if (freq_dictionary.count(word)) {
             return freq_dictionary.at(word);
         }

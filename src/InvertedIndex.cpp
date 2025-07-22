@@ -4,7 +4,7 @@
 #include <mutex>
 #include <thread>
 #include <algorithm>
-#include "../include/InvertedIndex.h"
+#include "C:/projects/FinalProject/include/InvertedIndex.h"
 
 void InvertedIndex::UpdateDocumentBase(std::vector<std::string> input_docs) {
     docs = std::move(input_docs);

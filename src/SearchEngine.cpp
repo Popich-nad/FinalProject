@@ -5,7 +5,7 @@
 #include <numeric>
 #include <cmath>
 #include <iterator>
-#include "../include/SearchEngine.h"
+#include "C:/projects/FinalProject/include/SearchEngine.h"
 
 std::vector<std::vector<RelativeIndex>> SearchEngine::search(const std::vector<std::string>& queries_input) {
     std::vector<std::vector<RelativeIndex>> results;

@@ -4,8 +4,8 @@
 #include <stdexcept>
 #include <algorithm>
 #include <iostream>
-#include "ConverterJSON.h"
-#include "json.hpp"
+#include "C:/projects/FinalProject/include/ConverterJSON.h"
+#include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
 
